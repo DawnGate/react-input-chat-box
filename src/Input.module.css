@@ -1,0 +1,18 @@
+.inputWrapper {
+    flex: 1;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.inputTextArea {
+    border: none;
+    outline: none;
+    resize: none;
+
+    padding: 0;
+
+    margin-bottom: 4px;
+
+    word-break: break-all;
+}

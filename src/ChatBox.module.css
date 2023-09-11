@@ -1,0 +1,22 @@
+.chatBox {
+    height: 500px;
+    width: 500px;
+    background: #EADBC8;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatMessages {
+    flex: 1;
+    background-color: #DAC0A3;
+}
+
+
+.chatBoxWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}

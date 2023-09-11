@@ -1,0 +1,14 @@
+.iconWrapper {
+    padding: 4px;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    &:hover {
+        background: #F8F0E5;
+    }
+}

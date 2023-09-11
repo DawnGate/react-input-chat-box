@@ -15,6 +15,10 @@ module.exports = {
                 exclude: [/node_modules/, /\.(spec|test).(ts|js)x?$/i],
                 loader: 'babel-loader',
             },
+            {
+                test: /\.svg$/,
+                loader: '@svgr/webpack',
+            },
         ],
     },
     resolve: {
