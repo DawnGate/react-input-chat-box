@@ -1,7 +1,7 @@
 {
   "name": "react-input-chat",
   "version": "1.0.0",
-  "description": "This is project for some input chat I learn to create after",
+  "description": "Project about how to create a chat input with different way to handle multiple line input with scroll style",
   "main": "index.ts",
   "author": "lam99quyen@gmail.com",
   "license": "MIT",

@@ -16,3 +16,16 @@
 
     word-break: break-all;
 }
+
+.inputContentEditable {
+    padding: 4px;
+    word-break: break-word;
+    white-space: pre-wrap;
+
+    outline: none;
+
+    &[aria-label]:empty:before {
+        content: attr(aria-label);
+        color: #765827;
+    }
+}

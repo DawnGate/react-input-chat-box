@@ -2,6 +2,7 @@ import style from './App.module.css'
 import ChatBox from './ChatBox'
 import ChatInput from './ChatInput'
 import InputTextArea from './InputTextArea'
+import InputContentEditable from './InputContentEditable'
 
 function App() {
     return (
@@ -10,6 +11,11 @@ function App() {
             <ChatBox>
                 <ChatInput>
                     <InputTextArea />
+                </ChatInput>
+            </ChatBox>
+            <ChatBox>
+                <ChatInput>
+                    <InputContentEditable />
                 </ChatInput>
             </ChatBox>
         </div>
