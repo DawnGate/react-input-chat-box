@@ -54,7 +54,7 @@ function InputTextArea() {
 
     return (
         <textarea
-            className={`${styles.inputWrapper} ${styles.inputTextArea}`}
+            className={`${styles.inputWrapper} ${styles.inputTextArea} scrollbar`}
             rows={1}
             value={inputText}
             placeholder="Message..."
