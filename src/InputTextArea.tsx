@@ -61,9 +61,7 @@ function InputTextArea() {
             onChange={handleChange}
             onKeyDown={handleKeyDown}
             ref={textareaRef}
-        >
-            h
-        </textarea>
+        />
     )
 }
 
